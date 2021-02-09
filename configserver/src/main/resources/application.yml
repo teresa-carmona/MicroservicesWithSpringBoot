@@ -6,6 +6,8 @@ spring:
         git:
           uri: https://github.com/teresa-carmona/configData
           searchPaths:
+        native:
+          search-locations: https://github.com/teresa-carmona/configData
 
 server:
   port: 8001
