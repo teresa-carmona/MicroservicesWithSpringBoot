@@ -1,0 +1,10 @@
+---
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8010/eureka/
+
+words: a cute house, a romantic relationship, an argument
+
+server:
+  port: ${PORT:${SERVER_PORT:0}}
